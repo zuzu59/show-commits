@@ -22,7 +22,7 @@ fetch(myRequest)
   .then(function(data) {
     // This is the JSON from our response
     // console.log(data);
-    let newBody = '<h1><a href = "https://github.com/zuzu59/NodeMCU_Lua" > NodeMCU_Lua < /a></h1>';
+    let newBody = '<h1>NodeMCU_Lua</h1><a href = "https://github.com/zuzu59/NodeMCU_Lua" >https://github.com/zuzu59/NodeMCU_Lua< /a>';
     data.forEach((item, i) => {
       // console.log('\n');
       // console.log(item.commit.author.date);

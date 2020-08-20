@@ -1,13 +1,14 @@
 # show-commits
 Permet d'afficher les détails des *commits* d'un dépôt dans une page WEB afin de se créer un mini *cahier de laboratoire* pour son projet
 
-zf200820.1610
+zf200820.1614
 
 <!-- TOC titleSize:2 tabSpaces:2 depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 skip:1 title:1 charForUnorderedList:* -->
 ## Table of Contents
 * [Buts](#buts)
 * [Moyens](#moyens)
 * [Utilisation](#utilisation)
+* [Remerciements](#remerciements)
 <!-- /TOC -->
 
 
@@ -47,4 +48,7 @@ https://zuzu59.github.io/show-commits/NodeMCU_Lua.html
 
 Et ainsi on pourra suivre toute l'évolution du projet date après date.
 
+
+## Remerciements
+Un GRAND merci à https://github.com/ponsfrilus pour m'avoir écrit le petit script JS.
 

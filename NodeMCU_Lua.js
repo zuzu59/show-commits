@@ -1,3 +1,6 @@
+// Version pour lister les détails des commits du projet zuzu59/NodeMCU_Lua
+// zf200825.1158
+//
 // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 const myRequest = new Request('https://api.github.com/repos/zuzu59/NodeMCU_Lua/commits', {
   method: 'GET',

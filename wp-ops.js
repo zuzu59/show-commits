@@ -1,5 +1,5 @@
 /* Version de test pour essayer de filtrer les users dans le détail des commits
- * zf200825.1158
+ * zf210721.1210
  *
  * TODO: 
  * filter by author
@@ -33,7 +33,9 @@ fetch(myRequest)
   .then(function (data) {
     // This is the JSON from our response
    //console.log(data);
-    let newBody = '';
+   //let newBody = '';
+   let newBody = '<h1>wp-ops 1210</h1>';
+   newBody += '<a href="https://github.com/epfl-si/wp-ops" >https://github.com/epfl-si/wp-ops</a>';
     let authors = [];
     data.forEach((item, i) => {
       if (!authors.includes(item.commit.author.name)) {

@@ -1,3 +1,6 @@
-# vscode:
-#   extensions:
-#     - ritwickdey.liveserver
+# Chargement des extensions que l'on désires pour ce projet
+# zf210722.1357
+
+vscode:
+  extensions:
+    - ritwickdey.liveserver
